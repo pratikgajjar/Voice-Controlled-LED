@@ -42,22 +42,22 @@ while True :
 			if "first" in txt:
 				if "on" in txt:
 					turnon(first);
-				if "of" in txt:
+				if "off" in txt:
 					turnoff(first);
 			if "second" in txt:
                                 if "on" in txt:
                 	                turnon(second);
-                                if "of" in txt:
+                                if "off" in txt:
                         	        turnoff(second);
-			if "light" in txt:
+			if "third" in txt:
                                 if "on" in txt:
                        	        	turnon(third);
-                                if "of" in txt:
+                                if "off" in txt:
                         	        turnoff(third);
-			if "television" in txt:
+			if "fourth" in txt:
                                 if "on" in txt:
                        		        turnon(fourth);
-                                if "of" in txt:
+                                if "off" in txt:
                              		turnoff(fourth);
    			if "all" in txt:
                                 if "on" in txt:
@@ -65,7 +65,7 @@ while True :
 					turnon(second);
 					turnon(third);
 					turnon(fourth);
-                                if "of" in txt:
+                                if "off" in txt:
                                         turnoff(first);
 					turnoff(second);
                                         turnoff(third);
